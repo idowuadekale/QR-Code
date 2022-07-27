@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Merriweather&family=Montserrat&family=Outfit&family=Sacramento&display=swap');
+body {
+    background-color: hsla(219, 46%, 69%, 0.527);
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(116, 150, 150);
+    color: white;
+    text-align: center;
+}
+
+.footer .attribution a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer .attribution a:hover {
+    color: aquamarine;
+    text-decoration: overline;
+}
+
+.main {
+    margin: 90px;
+}
+
+.container {
+    top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+img {
+    margin: 15px;
+    border-radius: 20px;
+}
+
+p {
+    color: grey;
+}
+
+h3 {
+    color: rgb(29, 27, 27);
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        display: none;
+    }
+}
